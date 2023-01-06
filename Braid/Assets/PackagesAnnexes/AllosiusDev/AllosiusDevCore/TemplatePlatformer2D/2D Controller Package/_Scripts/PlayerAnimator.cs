@@ -2,6 +2,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using AllosiusDevUtilities;
 using AllosiusDevUtilities.Audio;
+using Sirenix.OdinInspector;
 
 namespace AllosiusDevCore.Controller2D
 {
@@ -92,6 +93,16 @@ namespace AllosiusDevCore.Controller2D
         }
 
         #endregion
+
+        [Button(ButtonSizes.Medium)]
+        public void GetCurrentAnimFrame()
+        {
+            AnimatorStateInfo animationInfo = _anim.GetCurrentAnimatorStateInfo(0);
+            AnimatorClipInfo[] animationClip = _anim.GetCurrentAnimatorClipInfo(0);
+
+            float time = animationClip[0].clip.length * animationInfo.normalizedTime;
+            Debug.Log(animationClip[0].clip.name + " Time : " + time);
+        }
 
         private void OnDoubleJumping() {
             //_source.PlayOneShot(_doubleJumpClip);
