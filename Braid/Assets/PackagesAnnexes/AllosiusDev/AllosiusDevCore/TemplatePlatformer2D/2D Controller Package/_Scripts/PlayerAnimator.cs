@@ -19,6 +19,8 @@ namespace AllosiusDevCore.Controller2D
 
         #region Properties
 
+        public Animator Anim => _anim;
+
         #region Animation Keys
 
         private static readonly int GroundedKey = Animator.StringToHash("Grounded");
@@ -97,11 +99,21 @@ namespace AllosiusDevCore.Controller2D
         [Button(ButtonSizes.Medium)]
         public void GetCurrentAnimFrame()
         {
-            AnimatorStateInfo animationInfo = _anim.GetCurrentAnimatorStateInfo(0);
-            AnimatorClipInfo[] animationClip = _anim.GetCurrentAnimatorClipInfo(0);
+            //AnimatorStateInfo animationInfo = _anim.GetCurrentAnimatorStateInfo(0);
+            //AnimatorClipInfo[] animationClip = _anim.GetCurrentAnimatorClipInfo(0);
 
-            float time = animationClip[0].clip.length * animationInfo.normalizedTime;
-            Debug.Log(animationClip[0].clip.name + " Time : " + time);
+            //float time = animationClip[0].clip.length * animationInfo.normalizedTime;
+            //Debug.Log(animationClip[0].clip.name + " Time : " + time);
+
+            AnimatorClipInfo[] animationClip = _anim.GetCurrentAnimatorClipInfo(0);
+            int currentFrame = (int)(_anim.GetCurrentAnimatorStateInfo(0).normalizedTime * (animationClip[0].clip.length * animationClip[0].clip.frameRate));
+            Debug.Log(animationClip[0].clip.name + " CurrentFrame : " + currentFrame + " " + animationClip[0].clip.length);
+        }
+
+        [Button(ButtonSizes.Medium)]
+        public void PlaySpecificAnim(string nameAnim, float lengthAnim, int desiredFrame)
+        {
+            _anim.Play(nameAnim, 0, (1f / lengthAnim) * desiredFrame);
         }
 
         private void OnDoubleJumping() {

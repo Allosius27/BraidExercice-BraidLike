@@ -325,7 +325,7 @@ namespace AllosiusDevCore.Controller2D {
 
         private void GatherInput() 
         {
-            Debug.Log("GatherInput");
+            //Debug.Log("GatherInput");
 
             Input = _input.GatherInput();
 

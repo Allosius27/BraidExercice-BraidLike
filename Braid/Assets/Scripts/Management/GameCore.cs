@@ -1,4 +1,5 @@
 using AllosiusDevUtilities;
+using AllosiusDevUtilities.Audio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class GameCore : Singleton<GameCore>
     private bool _isRewinding;
 
     private List<TimeBody> _timeBodies = new List<TimeBody>();
+    private List<AnimTimeBody> _animTimeBodies = new List<AnimTimeBody>();
 
     #endregion
 
@@ -22,6 +24,8 @@ public class GameCore : Singleton<GameCore>
 
     #region UnityInspector
 
+    [SerializeField] private AudioData mainMusic;
+
     [SerializeField] private float _maxRecordTime;
 
     [SerializeField] private Volume rewindTimePostProcess;
@@ -29,6 +33,11 @@ public class GameCore : Singleton<GameCore>
     #endregion
 
     #region Behaviour
+
+    private void Start()
+    {
+        AudioController.Instance.PlayAudio(mainMusic);
+    }
 
     private void Update()
     {
@@ -41,6 +50,11 @@ public class GameCore : Singleton<GameCore>
             {
                 _timeBodies[i].StartRewind();
             }
+
+            for (int i = 0; i < _animTimeBodies.Count; i++)
+            {
+                _animTimeBodies[i].StartRewind();
+            }
             
         }
         if (Input.GetKeyUp(KeyCode.Return))
@@ -52,7 +66,12 @@ public class GameCore : Singleton<GameCore>
             {
                 _timeBodies[i].StopRewind();
             }
-                
+
+            for (int i = 0; i < _animTimeBodies.Count; i++)
+            {
+                _animTimeBodies[i].StopRewind();
+            }
+
         }
 
         CheckRewindState();
@@ -70,6 +89,14 @@ public class GameCore : Singleton<GameCore>
                 }
             }
 
+            for (int i = 0; i < _animTimeBodies.Count; i++)
+            {
+                if (_animTimeBodies[i].IsRewinding)
+                {
+                    return;
+                }
+            }
+
             _isRewinding = false;
             rewindTimePostProcess.gameObject.SetActive(false);
         }
@@ -80,6 +107,14 @@ public class GameCore : Singleton<GameCore>
         if(_timeBodies.Contains(newTimeBody) == false)
         {
             _timeBodies.Add(newTimeBody);
+        }
+    }
+
+    public void AddAnimTimeBody(AnimTimeBody newTimeBody)
+    {
+        if (_animTimeBodies.Contains(newTimeBody) == false)
+        {
+            _animTimeBodies.Add(newTimeBody);
         }
     }
 

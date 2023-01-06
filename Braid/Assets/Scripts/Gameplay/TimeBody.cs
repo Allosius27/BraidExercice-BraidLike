@@ -37,6 +37,11 @@ public class TimeBody : MonoBehaviour
 
     public virtual void FixedUpdate()
     {
+        if(GameCore.Instance == null)
+        {
+            return;
+        }
+
         if(_isRewinding)
         {
             Rewind();

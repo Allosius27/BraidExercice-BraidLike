@@ -84,10 +84,16 @@ namespace AllosiusDevCore
                 if (operation.progress >= 0.8f)
                 {
                     Debug.Log("SceneChanged");
+
                     AudioController.Instance.StopAllMusics();
+
+                    
+
                     operation.allowSceneActivation = false;
                     yield return new WaitForSeconds(3f);
                     operation.allowSceneActivation = true;
+                    if (GameCore.Instance != null)
+                        GameCore.ResetInstance();
                 }
 
                 yield return null;
