@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -33,27 +33,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -76,20 +76,3276 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426e69d61d25174399b8462edc5743e
+      internalID: 118502769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51780d14eace5d243a7e93399c4badaf
+      internalID: -2010402023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ccc0cd61b0ebc478bffe6209ccd65d
+      internalID: -242561186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6908272632029384da423c8b7d6a54f3
+      internalID: -861091085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40f57c7d38d0f54ea8f99144ef59870
+      internalID: 723659660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80be6a1fa15f06b46bf0676f1e563301
+      internalID: -1083084627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_6
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a621fce914a99c5468c718d15c80f389
+      internalID: 1082569096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_7
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a5c1d1e17a563459f0d7d585e5c273
+      internalID: 1483328408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1baa42cc8b10004b9a0f8b34a19a6b7
+      internalID: 275038305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_9
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea310e1b6d95774baebf00080f1d4ce
+      internalID: -1372354186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_10
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db452b6ef2955064fa463a3e3939e866
+      internalID: -1821473074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bacc61368598c947a24307366998b85
+      internalID: -1368483741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_12
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76db08ba66912524598a9267a34d541d
+      internalID: 581543686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_13
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b03dd6d1d2bc749aba3fe5188f46e6
+      internalID: 452519518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_14
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05167d7346f58494d941b7417c3a40b2
+      internalID: 1526955874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_15
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0c4659ecf3706498a89c66ce27f129
+      internalID: 442633691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_16
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e447fe305184a0142b21f2d88418901b
+      internalID: -1061185543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_17
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11ed67c6a96e5f45b39dcbb3761c7b2
+      internalID: 1323204322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_18
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376241f148f906d498ba659cd5d5bb33
+      internalID: -801202437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_19
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e83cd6e2bda283478b5f9f9facd6a9d
+      internalID: -2068242566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_20
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b755de697d33469e17eb036f1a30b
+      internalID: -1183646999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_21
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3876ad4e69b63b24595cbbba4385f591
+      internalID: -545360388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_22
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1210
+        width: 77
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c830b7294f3b7e24db5d47528daeac9b
+      internalID: -1009119575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_23
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1210
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3555694c10f9d6d4d892113a15d0821f
+      internalID: 2145515462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1034
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0b36555295c8b40ba95b1f513b5e3d
+      internalID: -542064364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1033
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41af9287edbd36240bfe1673f9d8264e
+      internalID: 1414592421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_26
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1030
+        width: 119
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6836cfb73c8458439f3d0fd69021ff5
+      internalID: 1476880761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1030
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd36026b55c33a4daf51e186a997086
+      internalID: 1540918088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1027
+        width: 106
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d16022f94fef94f8d13605ffb36776
+      internalID: 177643462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_29
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1027
+        width: 104
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8742936a6a86564448cc849ab99da60d
+      internalID: -222513887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_30
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1028
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df5e05a7d8dbec489a9bece4ec62698
+      internalID: -2094519366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1028
+        width: 100
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31ae32931fd80f4bafb7ed37b8f31ef
+      internalID: 1852546978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_32
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1027
+        width: 97
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81681b5fc34f1349b732f824ed4c6c5
+      internalID: -2069175163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_33
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1046
+        width: 100
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8818faf3e5d3b4d4f888223705fbd961
+      internalID: 1991819565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1054
+        width: 96
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d5494556097104292ab3c7074643b6
+      internalID: -130421901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_35
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1054
+        width: 94
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1fe76f9d3023c47af991d16771f810
+      internalID: 870955629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_36
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1057
+        width: 97
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e8e9c7198bc774fb953906483a88b8
+      internalID: -1047451595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_37
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1055
+        width: 99
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f270e4be9a8d045a2816edd0deb20b
+      internalID: -1102248938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_38
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1051
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfd23cfc21d1de4a80093f0f911e165
+      internalID: 1032069771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_39
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1060
+        width: 124
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6db4ceee1281c7409db340c6d1e1c54
+      internalID: -1246862924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_40
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1060
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bb425906c951a4d8b2f4afea6563b1
+      internalID: -1907591089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_41
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1060
+        width: 124
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad83c30b908661439a0351fe6063d5a
+      internalID: 1957068094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 877
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300826bba22c6bd4a96fbd6aff790d96
+      internalID: 1563804392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 879
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e336a51112011468e0190f1fb98462
+      internalID: 1339830590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 878
+        width: 101
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676cc357d7ad7d24487331fd1930b85f
+      internalID: -1866978986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_45
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 877
+        width: 103
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9edd5219e9dbec44a1d43c299b437ec
+      internalID: -372188163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_46
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 883
+        width: 108
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d64e444a7b1624785c8b9512ae02a6
+      internalID: -808687571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_47
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 885
+        width: 118
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbe59069ea07054cb79ff8dd3e6ba20
+      internalID: -1721200957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_48
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 885
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b6ce0f6de4f4840ba2d24e351afac7
+      internalID: -1217993718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_49
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 883
+        width: 112
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c006b4e8215340988fb82d4e62e01
+      internalID: 1387484092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_50
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 881
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6104f80d84d774d841ed33d18344b4
+      internalID: -598129666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_51
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 885
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2cdf099a1972348a7478fd1118a5f2
+      internalID: 1249838539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_52
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 883
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a898d6cc5259d41977d04fd15dac71
+      internalID: -496784624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_53
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 878
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456c1cb28f9d05540abd03e6eb865e78
+      internalID: 1320158082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_54
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 874
+        width: 92
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ac9efc1f802054b98fd8e20201fbdd
+      internalID: 1599449533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_55
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 876
+        width: 95
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275007049e861be4fa20159eb45e4da9
+      internalID: 445737347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_56
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 878
+        width: 95
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1461d653aeaf44f4198127173302c8a8
+      internalID: -514431279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_57
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 878
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0f45d6f1ee83b4084806b50810d3fa
+      internalID: -2124391690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_58
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 879
+        width: 102
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b84c46f5be28a24abd13f1e4bf819ee
+      internalID: 174031638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_59
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 881
+        width: 105
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200920cff30e64c4f80fd38369d228d2
+      internalID: -802800512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 738
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7a623f6b6f2b5418d693d51e68a101
+      internalID: -1777056147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_61
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 738
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0493d2c24b7da4b97f15fe391b7d52
+      internalID: -1866496623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 736
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d410bf079067d43928765579ce6e53
+      internalID: 495743658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 734
+        width: 95
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b25664c30b6aa14fb9b4642aeb11319
+      internalID: -2109258078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 736
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14e95a12704e4e4b88920dbccddf3dc
+      internalID: -1123375899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_65
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 736
+        width: 105
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574b747cbd903b42beb76c2d4865b48
+      internalID: 1577993894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_66
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 736
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07656f2a35ecc3c4f8d6170382127146
+      internalID: -1081094208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_67
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 736
+        width: 110
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89204da2bed5e4c4689b9b7f50071916
+      internalID: -912693000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_68
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 737
+        width: 114
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689e80b02ba0da94f9b4ef21acd36b4d
+      internalID: 849657341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_69
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 706
+        width: 108
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab1871b437963542b85f3789e7dcb1a
+      internalID: -2129661879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_70
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 706
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77908521f2ce25640842e2f2282a1011
+      internalID: -145798842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_71
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 706
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d629c3328372ac43adeef1391c12c13
+      internalID: -985368845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_72
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 707
+        width: 116
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610a2d5eec443784b9783616a28a052d
+      internalID: 633803813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_73
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 707
+        width: 109
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141be71a847783b46a79046e71ec44f9
+      internalID: 186608428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_96
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 549
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48cbf5db0805014bb74d55f39b02c5c
+      internalID: -638392176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_97
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 544
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529b5c070ea4cad4e8d7f95a6455d3cf
+      internalID: 34430305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_98
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 553
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271a9bfb1db63394897ae02dd76a87a4
+      internalID: -1303902106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_99
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 553
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54efb848428d6cc48bd14949a9b7f9fa
+      internalID: -927818721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_100
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 543
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef415dddd7e38f340b0029d69e3cb3a7
+      internalID: 1168903754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_101
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 543
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f77244e8e7a104c873d87a7913e075
+      internalID: 1894503242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_102
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 553
+        width: 102
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b138576353bd468f6b6c8edfb5bd3
+      internalID: -1791972446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_103
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 554
+        width: 107
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3845dc19af3a047be813cd56d95fd2
+      internalID: 597906849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_104
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 545
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b85f9b0901c0a499a98adb285369c7
+      internalID: -1891880937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_105
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 542
+        width: 128
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc06caba37383e84ba665e6a7f24d28d
+      internalID: 1894697567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_106
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 544
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94b6fca401dc44e8b948f11418c263
+      internalID: 319994553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_107
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 548
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b5e50385f2af44ba4fcdb8da883e3
+      internalID: 1546134758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_108
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 548
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de3161b7e5729b4e9d51f49c5c064bc
+      internalID: 1840116953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_109
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 549
+        width: 117
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c9832610e46842a943d69f592c700
+      internalID: -1453514004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_110
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 545
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f3acb3f5a82704daf0e23ce10059c0
+      internalID: -1618488278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_111
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 545
+        width: 111
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12510c5bbbb761c46ad79c6d9454df54
+      internalID: -1463172719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_113
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 370
+        width: 106
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c56a431e1a0cb741af2eeccc4aebcf6
+      internalID: 786892401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_114
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 370
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c1e5e93e1749b4a9708375e48357fd
+      internalID: 1474503428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_115
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 370
+        width: 104
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29644edfab41ebc45af602a4d3533e1b
+      internalID: -1508343284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_116
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 370
+        width: 104
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de111a4f19885040925b82b198fdb99
+      internalID: 758713022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_117
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 371
+        width: 103
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f929ae53c2614714cbbcbc5780078b5b
+      internalID: -974252341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_118
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 370
+        width: 106
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b5d87c0a6f68746a3bf7ece32aa44a
+      internalID: 992953083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_119
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 370
+        width: 105
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1832e9cc67300499dff45b16a4913a
+      internalID: 517166626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_120
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 370
+        width: 105
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763c01a371d3fc4a9e4fb44b3d09551
+      internalID: -1074365900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_121
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 370
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f8f96011707641aec95244f95bc1a
+      internalID: -489800062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_122
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 370
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7961486ff990749b0cc11ea754b2c7
+      internalID: 2140889574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_123
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 371
+        width: 111
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a642c27bf89014daa22c5881933ce8
+      internalID: 1472752209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_124
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 371
+        width: 114
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd43990c1cd63b54c82bbf7268bd3328
+      internalID: -263976190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_125
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 370
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232877ccb8ed89e45bb25db1f79ee596
+      internalID: -1078307161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_126
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 370
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb952cbce8fab66468cb834d07c14fcd
+      internalID: 363430371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_127
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 370
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c823685ca1974e8a78d706790d24b
+      internalID: 1451764371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_147
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 211
+        width: 108
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c2598b2ac38be4eb368e412b5bdb47
+      internalID: 1237303234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_148
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 214
+        width: 109
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc53ed1422c29e54ab00f7c7990a522e
+      internalID: 1233956786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_149
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 214
+        width: 111
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5d0c5762912374ea74fed6c4946977
+      internalID: 587136337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_150
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 119
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0024cff72e1433a44ada0f66cf913afe
+      internalID: -198463046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_151
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 211
+        width: 113
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e0653c852e8e6439e3543996245687
+      internalID: -1930131778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_152
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 211
+        width: 116
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f2a4463d9641745a0746cbecd5533f
+      internalID: -631744886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_153
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 210
+        width: 111
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8f4e914a37e3c498b1787f2510b3bc
+      internalID: -18175713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_154
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 210
+        width: 105
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad67b0237e25cc0479a54243bcc5740c
+      internalID: -892600859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_155
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 209
+        width: 95
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c0d00d558a95943b3bcf18f6001d3f
+      internalID: 1535388525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_156
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 205
+        width: 92
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ecbaea79062ac4eacb17839d4d6bb9
+      internalID: 2142669336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_157
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 206
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da58813971945414cb1809300c99c38d
+      internalID: 161917170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_158
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 206
+        width: 113
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bef85f01aff9d4f8ca301083a527de
+      internalID: 1931067643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_159
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 206
+        width: 117
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b1b50905a9e324792b606434bf3526
+      internalID: 403075842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_160
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 208
+        width: 115
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc74b93507951344691262594bf79fe9
+      internalID: 1960040726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_161
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 208
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1682913c496bb4d98a5532641ac2f3
+      internalID: -1255848822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_162
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 208
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ffee7738fbe4841b978c12704d7884
+      internalID: -814830425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_163
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 208
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a1661b4281e7d46b1890f3c3a06ae6
+      internalID: -587813853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_164
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 209
+        width: 109
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873ebbffc010e5a469c8ad37ecb9087e
+      internalID: 125633188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_165
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 32
+        width: 82
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44104bad45e3e844ca703568ae7325ed
+      internalID: -1155666058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_166
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 32
+        width: 84
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12f6e2810e530b41978e3497c863f87
+      internalID: -428943745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_167
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 32
+        width: 79
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d7916b5013f8d44840764c1a348dda
+      internalID: 1980806530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_168
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 32
+        width: 77
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3cb3e806d29f246b3750ef732f262f
+      internalID: -449324950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_169
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 32
+        width: 81
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c80e3aac11f054f8ef12ee344f7fc1
+      internalID: -2033582819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_170
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 36
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e565d34f3ae77334e8003a24a4b4b36c
+      internalID: 590849705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_171
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 36
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983dde8ab5fb94543ad108b6d79f12cf
+      internalID: -317030260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_172
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 36
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f89973f5ebeec448b1f7827821f0b9e
+      internalID: 1340495257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_173
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 36
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d87a1cc65b2f841ba9c59ec14332e7
+      internalID: 1456851933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_174
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 36
+        width: 89
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4b26d261667f646bb27ce9764bf00c
+      internalID: -1894940543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_175
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 36
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abeb75baf867294b97e7d3034c48579
+      internalID: -990934562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_176
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 36
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd9953f066c1014896ef286965354a8
+      internalID: 2083268731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_177
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 36
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab4e79e82a715c41be61a573d4f6717
+      internalID: -115763900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_178
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 36
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3292eb2db1b90c47a8e2f4f2fcb2c92
+      internalID: -22551253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_179
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 45
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a72ca25d15088429c5d323b9e85182
+      internalID: -1100758935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_180
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 45
+        width: 84
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fd1e93af6bfe54785caf97c80493f0
+      internalID: 1399551481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_181
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7bdd9f9383ee94f90a3f766d9488c5
+      internalID: -1188804459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_182
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 45
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd30fbaaadec341a08c09a9fc1aac9
+      internalID: 677481440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_183
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 45
+        width: 85
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0d9221ea0b2947b582484ee59ebff
+      internalID: -2117980685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_184
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7cb8172ef31a54eb2fe5aec58c10a5
+      internalID: -1232185456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_185
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 45
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7bc6fabb9c9b34486555458b7e74a4
+      internalID: 97504651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Tim_186
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69e56c259fd2894a8f21888b7db916a
+      internalID: -527013454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: be8422263f683c241971d92ad9e86761
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Braid - Tim_97: 34430305
+      PC Computer - Braid - Tim_127: 1451764371
+      PC Computer - Braid - Tim_117: -974252341
+      PC Computer - Braid - Tim_21: -545360388
+      PC Computer - Braid - Tim_69: -2129661879
+      PC Computer - Braid - Tim_14: 1526955874
+      PC Computer - Braid - Tim_153: -18175713
+      PC Computer - Braid - Tim_35: 870955629
+      PC Computer - Braid - Tim_120: -1074365900
+      PC Computer - Braid - Tim_57: -2124391690
+      PC Computer - Braid - Tim_184: -1232185456
+      PC Computer - Braid - Tim_162: -814830425
+      PC Computer - Braid - Tim_40: -1907591089
+      PC Computer - Braid - Tim_29: -222513887
+      PC Computer - Braid - Tim_59: -802800512
+      PC Computer - Braid - Tim_19: -2068242566
+      PC Computer - Braid - Tim_155: 1535388525
+      PC Computer - Braid - Tim_160: 1960040726
+      PC Computer - Braid - Tim_123: 1472752209
+      PC Computer - Braid - Tim_51: 1249838539
+      PC Computer - Braid - Tim_68: 849657341
+      PC Computer - Braid - Tim_183: -2117980685
+      PC Computer - Braid - Tim_77: 1640419845
+      PC Computer - Braid - Tim_125: -1078307161
+      PC Computer - Braid - Tim_149: 587136337
+      PC Computer - Braid - Tim_163: -587813853
+      PC Computer - Braid - Tim_111: -1463172719
+      PC Computer - Braid - Tim_181: -1188804459
+      PC Computer - Braid - Tim_55: 445737347
+      PC Computer - Braid - Tim_134: 1926191240
+      PC Computer - Braid - Tim_74: 349580363
+      PC Computer - Braid - Tim_103: 597906849
+      PC Computer - Braid - Tim_38: 1032069771
+      PC Computer - Braid - Tim_165: -1155666058
+      PC Computer - Braid - Tim_109: -1453514004
+      PC Computer - Braid - Tim_43: 1339830590
+      PC Computer - Braid - Tim_166: -428943745
+      PC Computer - Braid - Tim_118: 992953083
+      PC Computer - Braid - Tim_102: -1791972446
+      PC Computer - Braid - Tim_12: 581543686
+      PC Computer - Braid - Tim_179: -1100758935
+      PC Computer - Braid - Tim_139: 1392459065
+      PC Computer - Braid - Tim_33: 1991819565
+      PC Computer - Braid - Tim_42: 1563804392
+      PC Computer - Braid - Tim_177: -115763900
+      PC Computer - Braid - Tim_8: 275038305
+      PC Computer - Braid - Tim_128: 188421369
+      PC Computer - Braid - Tim_3: -861091085
+      PC Computer - Braid - Tim_137: 361024760
+      PC Computer - Braid - Tim_52: -496784624
+      PC Computer - Braid - Tim_17: 1323204322
+      PC Computer - Braid - Tim_61: -1866496623
+      PC Computer - Braid - Tim_169: -2033582819
+      PC Computer - Braid - Tim_180: 1399551481
+      PC Computer - Braid - Tim_141: 1256597777
+      PC Computer - Braid - Tim_94: -1318469913
+      PC Computer - Braid - Tim_46: -808687571
+      PC Computer - Braid - Tim_28: 177643462
+      PC Computer - Braid - Tim_36: -1047451595
+      PC Computer - Braid - Tim_126: 363430371
+      PC Computer - Braid - Tim_151: -1930131778
+      PC Computer - Braid - Tim_86: -916810762
+      PC Computer - Braid - Tim_30: -2094519366
+      PC Computer - Braid - Tim_144: -1000268491
+      PC Computer - Braid - Tim_49: 1387484092
+      PC Computer - Braid - Tim_173: 1456851933
+      PC Computer - Braid - Tim_108: 1840116953
+      PC Computer - Braid - Tim_82: 669436896
+      PC Computer - Braid - Tim_50: -598129666
+      PC Computer - Braid - Tim_135: 142371412
+      PC Computer - Braid - Tim_27: 1540918088
+      PC Computer - Braid - Tim_45: -372188163
+      PC Computer - Braid - Tim_20: -1183646999
+      PC Computer - Braid - Tim_133: -936571146
+      PC Computer - Braid - Tim_159: 403075842
+      PC Computer - Braid - Tim_156: 2142669336
+      PC Computer - Braid - Tim_81: 1574975905
+      PC Computer - Braid - Tim_152: -631744886
+      PC Computer - Braid - Tim_110: -1618488278
+      PC Computer - Braid - Tim_67: -912693000
+      PC Computer - Braid - Tim_131: 551692106
+      PC Computer - Braid - Tim_71: -985368845
+      PC Computer - Braid - Tim_174: -1894940543
+      PC Computer - Braid - Tim_115: -1508343284
+      PC Computer - Braid - Tim_101: 1894503242
+      PC Computer - Braid - Tim_113: 786892401
+      PC Computer - Braid - Tim_60: -1777056147
+      PC Computer - Braid - Tim_48: -1217993718
+      PC Computer - Braid - Tim_90: -944468006
+      PC Computer - Braid - Tim_44: -1866978986
+      PC Computer - Braid - Tim_185: 97504651
+      PC Computer - Braid - Tim_24: -542064364
+      PC Computer - Braid - Tim_145: 355888753
+      PC Computer - Braid - Tim_73: 186608428
+      PC Computer - Braid - Tim_2: -242561186
+      PC Computer - Braid - Tim_154: -892600859
+      PC Computer - Braid - Tim_9: -1372354186
+      PC Computer - Braid - Tim_170: 590849705
+      PC Computer - Braid - Tim_142: -1235345043
+      PC Computer - Braid - Tim_119: 517166626
+      PC Computer - Braid - Tim_15: 442633691
+      PC Computer - Braid - Tim_26: 1476880761
+      PC Computer - Braid - Tim_84: 846825383
+      PC Computer - Braid - Tim_186: -527013454
+      PC Computer - Braid - Tim_140: 700155343
+      PC Computer - Braid - Tim_5: -1083084627
+      PC Computer - Braid - Tim_4: 723659660
+      PC Computer - Braid - Tim_65: 1577993894
+      PC Computer - Braid - Tim_157: 161917170
+      PC Computer - Braid - Tim_25: 1414592421
+      PC Computer - Braid - Tim_121: -489800062
+      PC Computer - Braid - Tim_158: 1931067643
+      PC Computer - Braid - Tim_0: 118502769
+      PC Computer - Braid - Tim_32: -2069175163
+      PC Computer - Braid - Tim_7: 1483328408
+      PC Computer - Braid - Tim_79: 251889692
+      PC Computer - Braid - Tim_64: -1123375899
+      PC Computer - Braid - Tim_54: 1599449533
+      PC Computer - Braid - Tim_87: 1473032719
+      PC Computer - Braid - Tim_132: 337692028
+      PC Computer - Braid - Tim_39: -1246862924
+      PC Computer - Braid - Tim_168: -449324950
+      PC Computer - Braid - Tim_58: 174031638
+      PC Computer - Braid - Tim_70: -145798842
+      PC Computer - Braid - Tim_63: -2109258078
+      PC Computer - Braid - Tim_122: 2140889574
+      PC Computer - Braid - Tim_72: 633803813
+      PC Computer - Braid - Tim_11: -1368483741
+      PC Computer - Braid - Tim_78: 826218700
+      PC Computer - Braid - Tim_182: 677481440
+      PC Computer - Braid - Tim_31: 1852546978
+      PC Computer - Braid - Tim_116: 758713022
+      PC Computer - Braid - Tim_114: 1474503428
+      PC Computer - Braid - Tim_75: 374821693
+      PC Computer - Braid - Tim_175: -990934562
+      PC Computer - Braid - Tim_76: -2081149151
+      PC Computer - Braid - Tim_146: -551911490
+      PC Computer - Braid - Tim_80: 1945791591
+      PC Computer - Braid - Tim_129: 1629308755
+      PC Computer - Braid - Tim_164: 125633188
+      PC Computer - Braid - Tim_167: 1980806530
+      PC Computer - Braid - Tim_37: -1102248938
+      PC Computer - Braid - Tim_100: 1168903754
+      PC Computer - Braid - Tim_130: -1414743007
+      PC Computer - Braid - Tim_106: 319994553
+      PC Computer - Braid - Tim_47: -1721200957
+      PC Computer - Braid - Tim_83: 1561133811
+      PC Computer - Braid - Tim_18: -801202437
+      PC Computer - Braid - Tim_93: -1307946665
+      PC Computer - Braid - Tim_53: 1320158082
+      PC Computer - Braid - Tim_161: -1255848822
+      PC Computer - Braid - Tim_138: 1199867994
+      PC Computer - Braid - Tim_124: -263976190
+      PC Computer - Braid - Tim_147: 1237303234
+      PC Computer - Braid - Tim_95: 1588996770
+      PC Computer - Braid - Tim_56: -514431279
+      PC Computer - Braid - Tim_178: -22551253
+      PC Computer - Braid - Tim_62: 495743658
+      PC Computer - Braid - Tim_88: -1398586726
+      PC Computer - Braid - Tim_143: 117642497
+      PC Computer - Braid - Tim_171: -317030260
+      PC Computer - Braid - Tim_172: 1340495257
+      PC Computer - Braid - Tim_107: 1546134758
+      PC Computer - Braid - Tim_66: -1081094208
+      PC Computer - Braid - Tim_1: -2010402023
+      PC Computer - Braid - Tim_41: 1957068094
+      PC Computer - Braid - Tim_96: -638392176
+      PC Computer - Braid - Tim_98: -1303902106
+      PC Computer - Braid - Tim_89: 1264493983
+      PC Computer - Braid - Tim_150: -198463046
+      PC Computer - Braid - Tim_16: -1061185543
+      PC Computer - Braid - Tim_92: 1595876001
+      PC Computer - Braid - Tim_148: 1233956786
+      PC Computer - Braid - Tim_34: -130421901
+      PC Computer - Braid - Tim_99: -927818721
+      PC Computer - Braid - Tim_104: -1891880937
+      PC Computer - Braid - Tim_6: 1082569096
+      PC Computer - Braid - Tim_22: -1009119575
+      PC Computer - Braid - Tim_23: 2145515462
+      PC Computer - Braid - Tim_91: -155766724
+      PC Computer - Braid - Tim_136: -59949528
+      PC Computer - Braid - Tim_13: 452519518
+      PC Computer - Braid - Tim_10: -1821473074
+      PC Computer - Braid - Tim_112: 1596750114
+      PC Computer - Braid - Tim_85: 47084906
+      PC Computer - Braid - Tim_105: 1894697567
+      PC Computer - Braid - Tim_176: 2083268731
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

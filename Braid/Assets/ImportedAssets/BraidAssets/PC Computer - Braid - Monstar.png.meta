@@ -102,18 +102,877 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 475
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10555f416b27f9449aef86e02bbe1a37
+      internalID: 1219716972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 474
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa2557661a50144c84b247d7eb5efbd
+      internalID: -1252878548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 475
+        width: 113
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b8495ffa765ee448c1102f4b9f86a2
+      internalID: 1101385706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_3
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 474
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9d198efc90eed4f8d3c78f15aeff96
+      internalID: 1435240731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 475
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c9031d94bf97a47ba9c6796480a372
+      internalID: 1929357978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_5
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 474
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2accb29e7573e834386cf11141114a0b
+      internalID: 2104444950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_6
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 476
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8db6e5feafc3740b7fb7c980ddf20e
+      internalID: -480374155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_7
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 474
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70acba3cb84aa4b499e8af6d1117d460
+      internalID: 813655908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 337
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8a4d9b03772594a9ac667b2cb0c913
+      internalID: 1068259688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_35
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 335
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561ffbb3c8d90ce45a4bfd97d30a71c7
+      internalID: 2113597505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_36
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 337
+        width: 113
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456167b5586d1714ea3ebd4422195168
+      internalID: -530238683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 336
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfc061ee1b096d4c8e3f13db8e1b786
+      internalID: 540495803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_38
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 337
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2758b7c50433bf9439d899d21556daec
+      internalID: -1446765428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_39
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 335
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce81c8ffea040844b43e1801d2810ed
+      internalID: -1242171967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_40
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 338
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6778ca4fea84e5a49a74a64299fbbfa5
+      internalID: 1948226428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_41
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 336
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1471ee9cce58bd945a9ecbf1b0d69b14
+      internalID: 418485219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_83
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 186
+        width: 117
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c249a9a95d844cb32652f3c6f34b1
+      internalID: -310030368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_84
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 183
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4a2056679a11e4a94a0e2fa0eccd6d
+      internalID: 568997933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_85
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 296
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b8fa5d6750d74ca9a222648befced
+      internalID: -1100372448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_86
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 180
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1344c1643412441b3b2bf63c59442a
+      internalID: -1726590237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_87
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 183
+        width: 112
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cdf21b46f71ae47814e7e2272c6c0f
+      internalID: 1722026809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_88
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 182
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3d9c47e984194c8acefed0fd94daf
+      internalID: 374602826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_89
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 181
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f80f8382156994ea6635f4e396f6fa
+      internalID: -1078452052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_90
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 180
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28fa36dd003d084b89d0768fa23f50c
+      internalID: 1208120530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_91
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 180
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7e7020e64ead145bc49e7e5bd3651f
+      internalID: -1194030841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_92
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 182
+        width: 113
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6dd352bdd7e54aa40582d630ca0dd
+      internalID: 1131790307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_93
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 19
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc66c2e8c42635c49b3c8c3910df8855
+      internalID: -1380858637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_94
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 19
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a49fe54c7d9ba849bc40f187a8f6caa
+      internalID: 1741700851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_95
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 19
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3094ee0c73c9f9a4cb935a9086f6f2f7
+      internalID: -1881932396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_96
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afb9d43d7ce2fd49b2bcad8bac4a8b9
+      internalID: 1987901718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_97
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 19
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1171d3d558294c94999158abaea06996
+      internalID: -1039844217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_98
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 23
+        width: 115
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d2bdb5c6be90a4fb92979e45bf3eee
+      internalID: -987878520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_99
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 22
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fce5ea21349e3e469796dcef8494abb
+      internalID: 789061275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_100
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 22
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c86d608605cd42ad96a24c9202ba9
+      internalID: -528914661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_101
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 22
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7feac6f2d2b604d9d834766d3d1b5e
+      internalID: 917495105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Braid - Monstar_102
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 19
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a041c1a79e4a96449da58b441b2ade3
+      internalID: 1079251104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 38c06311190df86479cf3102cbbf73df
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Braid - Monstar_16: -756500265
+      PC Computer - Braid - Monstar_42: -502878279
+      PC Computer - Braid - Monstar_19: 1145164331
+      PC Computer - Braid - Monstar_98: -987878520
+      PC Computer - Braid - Monstar_24: 1983277978
+      PC Computer - Braid - Monstar_0: 1219716972
+      PC Computer - Braid - Monstar_45: 387902274
+      PC Computer - Braid - Monstar_13: 1025475959
+      PC Computer - Braid - Monstar_46: -34861321
+      PC Computer - Braid - Monstar_54: 972853539
+      PC Computer - Braid - Monstar_29: 1181737735
+      PC Computer - Braid - Monstar_47: 1170387356
+      PC Computer - Braid - Monstar_60: -1794351296
+      PC Computer - Braid - Monstar_7: 813655908
+      PC Computer - Braid - Monstar_71: -592725592
+      PC Computer - Braid - Monstar_61: -1471787961
+      PC Computer - Braid - Monstar_89: -1078452052
+      PC Computer - Braid - Monstar_53: -967146967
+      PC Computer - Braid - Monstar_101: 917495105
+      PC Computer - Braid - Monstar_6: -480374155
+      PC Computer - Braid - Monstar_43: 333903353
+      PC Computer - Braid - Monstar_25: -1605270433
+      PC Computer - Braid - Monstar_87: 1722026809
+      PC Computer - Braid - Monstar_84: 568997933
+      PC Computer - Braid - Monstar_35: 2113597505
+      PC Computer - Braid - Monstar_9: 1064889540
+      PC Computer - Braid - Monstar_23: 1389303750
+      PC Computer - Braid - Monstar_79: 781287564
+      PC Computer - Braid - Monstar_2: 1101385706
+      PC Computer - Braid - Monstar_76: 792331840
+      PC Computer - Braid - Monstar_48: 1103220865
+      PC Computer - Braid - Monstar_33: 384272374
+      PC Computer - Braid - Monstar_26: 23593783
+      PC Computer - Braid - Monstar_57: 1730614635
+      PC Computer - Braid - Monstar_102: 1079251104
+      PC Computer - Braid - Monstar_58: 138929818
+      PC Computer - Braid - Monstar_63: -91518984
+      PC Computer - Braid - Monstar_97: -1039844217
+      PC Computer - Braid - Monstar_88: 374602826
+      PC Computer - Braid - Monstar_17: -1813251950
+      PC Computer - Braid - Monstar_56: -1019245978
+      PC Computer - Braid - Monstar_51: -2010031998
+      PC Computer - Braid - Monstar_66: 1116814737
+      PC Computer - Braid - Monstar_80: -2019507030
+      PC Computer - Braid - Monstar_96: 1987901718
+      PC Computer - Braid - Monstar_38: -1446765428
+      PC Computer - Braid - Monstar_8: 517931344
+      PC Computer - Braid - Monstar_3: 1435240731
+      PC Computer - Braid - Monstar_69: 1528661733
+      PC Computer - Braid - Monstar_81: -1950469450
+      PC Computer - Braid - Monstar_15: 734614853
+      PC Computer - Braid - Monstar_12: -1020302160
+      PC Computer - Braid - Monstar_77: -1750796792
+      PC Computer - Braid - Monstar_36: -530238683
+      PC Computer - Braid - Monstar_65: -712465935
+      PC Computer - Braid - Monstar_92: 1131790307
+      PC Computer - Braid - Monstar_14: 903727640
+      PC Computer - Braid - Monstar_30: 424746987
+      PC Computer - Braid - Monstar_1: -1252878548
+      PC Computer - Braid - Monstar_99: 789061275
+      PC Computer - Braid - Monstar_52: 842342500
+      PC Computer - Braid - Monstar_20: 85101831
+      PC Computer - Braid - Monstar_39: -1242171967
+      PC Computer - Braid - Monstar_70: 1731724497
+      PC Computer - Braid - Monstar_82: -1140645505
+      PC Computer - Braid - Monstar_67: -1597522803
+      PC Computer - Braid - Monstar_41: 418485219
+      PC Computer - Braid - Monstar_64: -2032290805
+      PC Computer - Braid - Monstar_22: 1368780479
+      PC Computer - Braid - Monstar_72: -784867563
+      PC Computer - Braid - Monstar_4: 1929357978
+      PC Computer - Braid - Monstar_18: -1475523049
+      PC Computer - Braid - Monstar_11: 137890355
+      PC Computer - Braid - Monstar_44: -2064112731
+      PC Computer - Braid - Monstar_34: 1068259688
+      PC Computer - Braid - Monstar_5: 2104444950
+      PC Computer - Braid - Monstar_32: 1361372668
+      PC Computer - Braid - Monstar_10: 1447328167
+      PC Computer - Braid - Monstar_50: 1974997499
+      PC Computer - Braid - Monstar_94: 1741700851
+      PC Computer - Braid - Monstar_68: 1762902130
+      PC Computer - Braid - Monstar_59: -605699678
+      PC Computer - Braid - Monstar_86: -1726590237
+      PC Computer - Braid - Monstar_75: 2053353861
+      PC Computer - Braid - Monstar_49: -2004896637
+      PC Computer - Braid - Monstar_62: 1739737391
+      PC Computer - Braid - Monstar_74: 170930362
+      PC Computer - Braid - Monstar_37: 540495803
+      PC Computer - Braid - Monstar_83: -310030368
+      PC Computer - Braid - Monstar_55: -172325669
+      PC Computer - Braid - Monstar_95: -1881932396
+      PC Computer - Braid - Monstar_28: -541944538
+      PC Computer - Braid - Monstar_90: 1208120530
+      PC Computer - Braid - Monstar_31: -1469606403
+      PC Computer - Braid - Monstar_93: -1380858637
+      PC Computer - Braid - Monstar_91: -1194030841
+      PC Computer - Braid - Monstar_78: 719032385
+      PC Computer - Braid - Monstar_21: -2113898587
+      PC Computer - Braid - Monstar_100: -528914661
+      PC Computer - Braid - Monstar_73: 1941514776
+      PC Computer - Braid - Monstar_40: 1948226428
+      PC Computer - Braid - Monstar_85: -1100372448
+      PC Computer - Braid - Monstar_27: 450439902
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
