@@ -228,6 +228,16 @@ namespace AllosiusDevCore.Controller2D
         {
             if (_player == null) return;
 
+            if(_player.TimeBody != null && _player.TimeBody.IsRewinding)
+            {
+                //_anim.enabled = false;
+                return;
+            }
+            else
+            {
+                //_anim.enabled = true;
+            }
+
             var inputPoint = Mathf.Abs(_player.Input.X);
 
             // Flip the sprite

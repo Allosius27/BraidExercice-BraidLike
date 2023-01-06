@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -906,9 +906,9 @@ TextureImporter:
       PC Computer - Braid - Monstar_57: 1730614635
       PC Computer - Braid - Monstar_102: 1079251104
       PC Computer - Braid - Monstar_58: 138929818
-      PC Computer - Braid - Monstar_63: -91518984
       PC Computer - Braid - Monstar_97: -1039844217
       PC Computer - Braid - Monstar_88: 374602826
+      PC Computer - Braid - Monstar_63: -91518984
       PC Computer - Braid - Monstar_17: -1813251950
       PC Computer - Braid - Monstar_56: -1019245978
       PC Computer - Braid - Monstar_51: -2010031998
@@ -948,8 +948,8 @@ TextureImporter:
       PC Computer - Braid - Monstar_5: 2104444950
       PC Computer - Braid - Monstar_32: 1361372668
       PC Computer - Braid - Monstar_10: 1447328167
-      PC Computer - Braid - Monstar_50: 1974997499
       PC Computer - Braid - Monstar_94: 1741700851
+      PC Computer - Braid - Monstar_50: 1974997499
       PC Computer - Braid - Monstar_68: 1762902130
       PC Computer - Braid - Monstar_59: -605699678
       PC Computer - Braid - Monstar_86: -1726590237

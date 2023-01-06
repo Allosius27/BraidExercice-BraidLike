@@ -13,6 +13,9 @@ namespace AllosiusDevCore.Controller2D {
     }
 
     public interface IPlayerController {
+
+        public TimeBody TimeBody { get; }
+
         public FrameInput Input { get; }
         public Vector2 RawMovement { get; }
         public Vector2 MoveApplyValue { get; }

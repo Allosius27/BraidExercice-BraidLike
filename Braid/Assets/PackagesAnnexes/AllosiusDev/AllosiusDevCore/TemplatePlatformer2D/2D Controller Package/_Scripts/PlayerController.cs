@@ -9,6 +9,8 @@ namespace AllosiusDevCore.Controller2D {
     {
         #region Fields
 
+        private TimeBody _timeBody;
+
         private Rigidbody2D _rb;
         private BoxCollider2D _collider;
         private PlayerInput _input;
@@ -170,6 +172,8 @@ namespace AllosiusDevCore.Controller2D {
 
         #region Properties
 
+        public TimeBody TimeBody => _timeBody;
+
         public FrameInput Input { get; protected set; }
         public Vector2 RawMovement { get; protected set; }
         public Vector2 MoveApplyValue { get; protected set; }
@@ -217,6 +221,7 @@ namespace AllosiusDevCore.Controller2D {
             _rb = GetComponent<Rigidbody2D>();
             _collider = GetComponent<BoxCollider2D>();
             _input = GetComponent<PlayerInput>();
+            _timeBody = GetComponent<TimeBody>();
 
             LoadPlayerData();
 
@@ -249,6 +254,11 @@ namespace AllosiusDevCore.Controller2D {
                 return;
             }
 
+            if(_timeBody != null & _timeBody.IsRewinding)
+            {
+                return;
+            }
+
             UpdateDebugVariables();
 
             GatherInput();
@@ -257,6 +267,11 @@ namespace AllosiusDevCore.Controller2D {
         void FixedUpdate() 
         {
             if(playerData == null)
+            {
+                return;
+            }
+
+            if (_timeBody != null & _timeBody.IsRewinding)
             {
                 return;
             }

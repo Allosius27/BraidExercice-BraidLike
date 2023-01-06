@@ -8,13 +8,14 @@ public class TimeBody : MonoBehaviour
 
     private bool _isRewinding;
 
-    private List<PointInTime> _pointsInTime;
-
-    private Rigidbody2D _rb;
 
     #endregion
 
     #region Properties
+
+    public List<PointInTime> pointsInTime { get; protected set; }
+
+    public Rigidbody2D rb { get; protected set; }
 
     public bool IsRewinding => _isRewinding;
 
@@ -26,15 +27,15 @@ public class TimeBody : MonoBehaviour
 
     #region Behaviour
 
-    private void Start()
+    public virtual void Start()
     {
-        _pointsInTime = new List<PointInTime>();
-        _rb = GetComponent<Rigidbody2D>();
+        pointsInTime = new List<PointInTime>();
+        rb = GetComponent<Rigidbody2D>();
 
         GameCore.Instance.AddTimeBody(this);
     }
 
-    private void FixedUpdate()
+    public virtual void FixedUpdate()
     {
         if(_isRewinding)
         {
@@ -46,14 +47,19 @@ public class TimeBody : MonoBehaviour
         }
     }
 
-    void Rewind()
+    public virtual void Rewind()
     {
-        if(_pointsInTime.Count > 0)
+        if(pointsInTime.Count > 0)
         {
-            PointInTime pointInTime = _pointsInTime[0];
+            PointInTime pointInTime = pointsInTime[0];
             transform.position = pointInTime.position;
             transform.rotation = pointInTime.rotation;
-            _pointsInTime.RemoveAt(0);
+            transform.localScale = pointInTime.scale;
+            if(rb != null)
+            {
+                rb.velocity = pointInTime.velocity;
+            }
+            pointsInTime.RemoveAt(0);
         }
         else
         {
@@ -61,33 +67,41 @@ public class TimeBody : MonoBehaviour
         }
     }
 
-    private void Record()
+    public virtual void Record()
     {
-        if(_pointsInTime.Count > Mathf.Round(GameCore.Instance.MaxRecordTime * (1f / Time.fixedDeltaTime)))
+        if(pointsInTime.Count > Mathf.Round(GameCore.Instance.MaxRecordTime * (1f / Time.fixedDeltaTime)))
         {
-            _pointsInTime.RemoveAt(_pointsInTime.Count - 1);
+            pointsInTime.RemoveAt(pointsInTime.Count - 1);
         }
 
-        _pointsInTime.Insert(0, new PointInTime(transform.position, transform.rotation));
+        if(rb != null)
+        {
+            pointsInTime.Insert(0, new PointInTime(transform.position, transform.rotation, transform.localScale, rb.velocity));
+        }
+        else
+        {
+            pointsInTime.Insert(0, new PointInTime(transform.position, transform.rotation, transform.localScale));
+        }
+       
     }
 
-    public void StartRewind()
+    public virtual void StartRewind()
     {
         _isRewinding = true;
 
-        if(_rb != null)
+        if(rb != null)
         {
-            _rb.isKinematic = true;
+            rb.isKinematic = true;
         }
     }
 
-    public void StopRewind()
+    public virtual void StopRewind()
     {
         _isRewinding = false;
 
-        if (_rb != null)
+        if (rb != null)
         {
-            _rb.isKinematic = false;
+            rb.isKinematic = false;
         }
     }
 
